@@ -1,0 +1,67 @@
+\documentclass[a4paper,12pt, chapter=TITLE]{abntex2}
+\usepackage[latin1]{inputenc}
+\usepackage[brazil]{babel}
+\usepackage{verbatim}
+\usepackage[left=3cm, right=2cm, top=3cm, bottom=2cm]{geometry} 
+\usepackage[alf]{abntex2cite}
+\usepackage{graphicx}
+\renewcommand{\ABNTEXchapterfont}{\fontfamily{ptm}\fontseries{b}}
+\renewcommand{\ABNTEXchapterfontsize}{\normalsize}
+\renewcommand{\ABNTEXsectionfont}{\fontfamily{ptm}}
+\renewcommand{\ABNTEXsectionfontsize}{\normalsize}
+\renewcommand{\ABNTEXsubsectionfont}{\fontfamily{ptm}\fontseries{b}}
+\renewcommand{\cftsectionfont}{\fontfamily{ptm}}
+\title{Esqueleto do TCC}
+   
+\begin{document}	 
+	
+\pretextual
+\input{capa.tex}
+
+\input{dedicatoria.tex}
+
+\newpage
+
+\input{agradecimentos}
+
+\newpage
+
+\input{resumo.tex}
+
+\newpage
+
+\input{abstract}
+
+\newpage
+
+% Sumário 
+\tableofcontents*
+\textual
+
+%Lista de Figuras
+
+\listoffigures
+\input{figuras.tex}
+%---------------
+
+\input{introducao.tex}
+
+\input{desenvolvimento.tex}
+
+\input{literatura.tex}
+
+\input{resultados.tex}
+
+\input{conclusao.tex}
+
+\input{referencias.tex}
+\bibliographystyle{abnt}
+\bibliography{referencias.bib}
+
+%\input{apendice1}
+%\input{apendice2}
+
+%\input{anexo1}
+%\input{anexo1}
+
+\end{document}

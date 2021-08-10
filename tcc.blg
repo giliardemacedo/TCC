@@ -1,0 +1,13 @@
+This is BibTeX, Version 0.99dThe top-level auxiliary file: tcc.aux
+I couldn't open style file abnt.bst
+---line 93 of file tcc.aux
+ : \bibstyle{abnt
+ :               }
+I'm skipping whatever remains of this command
+I couldn't open database file referencias.bib.bib
+---line 94 of file tcc.aux
+ : \bibdata{abntex2-options,referencias.bib
+ :                                         }
+I'm skipping whatever remains of this command
+I found no style file---while reading file tcc.aux
+(There were 3 error messages)
